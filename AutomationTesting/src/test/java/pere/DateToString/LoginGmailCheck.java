@@ -88,8 +88,9 @@ public class LoginGmailCheck {
 		                if(element.getText().equalsIgnoreCase("Thank You!!!")){
 		                	System.out.println("email verification success");
 		                }else if (element.getText().equalsIgnoreCase("Opps!!!")){
-		                	System.out.println("Link expired confirmed");
+		                	System.out.println("Link expired confirmed");AutomationTesting/src/main/java/com/pere/OverviewTestNG/App.java
 		                }
 		    
 	}
 }
+//fhf
