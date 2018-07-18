@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.pere.OverviewTestNG.RegistrationGst">
+        <methods>
+          <include name="loginUser"/>
+          <include name="fillFormwithvliadDataCa"/>
+          <include name="registrationForCa"/>
+          <include name="killDriver"/>
+          <include name="initDriver"/>
+          <include name="fillFormwithvliadDataBusiness"/>
+          <include name="registrationForBusiness"/>
+        </methods>
+      </class> <!-- com.pere.OverviewTestNG.RegistrationGst -->
+      <class name="com.pere.OverviewTestNG.NewTest">
+        <methods>
+          <include name="loginUserInvalidPass"/>
+          <include name="AssertTitleGST"/>
+          <include name="loginUser"/>
+          <include name="loginUserInvalidEmail"/>
+        </methods>
+      </class> <!-- com.pere.OverviewTestNG.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
